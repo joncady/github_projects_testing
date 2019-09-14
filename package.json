@@ -1,0 +1,23 @@
+{
+  "name": "github_projects_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joncady/github_projects_testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joncady/github_projects_testing/issues"
+  },
+  "homepage": "https://github.com/joncady/github_projects_testing#readme",
+  "dependencies": {
+    "@octokit/rest": "^16.28.9"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "students": ["joncady"],
+    "projectName": "stage1",
+    "repo": "github_projects_testing",
+    "columns": ["To Do", "In Progress", "Done"],
+    "cards": [
+        {
+            "name": "card1",
+            "body": "test content"
+        },
+        {
+            "name": "card2",
+            "body": "test"
+        }
+    ]
+}
