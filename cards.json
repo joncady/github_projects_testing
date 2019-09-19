@@ -1,15 +1,14 @@
 {
-    "students": ["joncady"],
+    "students": ["joelwross", "joncady"],
     "projectName": "stage1",
-    "repo": "github_projects_testing",
+    "repo": "project",
     "columns": ["To Do", "In Progress", "Done"],
+    "owner": "info340a-au19",
     "cards": [
         {
-            "name": "card1",
             "body": "test content"
         },
         {
-            "name": "card2",
             "body": "test"
         }
     ]

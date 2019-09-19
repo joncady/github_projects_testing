@@ -9,19 +9,31 @@ if (!process.argv[2]) {
         auth: api
     });
     
-    const { students, projectName, columns, cards, repo } = JSON.parse(fs.readFileSync("cards.json"));
+    const { students, projectName, columns, cards, repo, owner } = JSON.parse(fs.readFileSync("cards.json"));
     
     students.forEach(student => {
         octokit.projects.createForRepo({
-            owner: student,
-            repo: repo,
+            owner: owner,
+            repo: `${repo}-${student}`,
             name: projectName
         }).then(({ data, headers, status }) => {
             let id = data.id;
+            // create to do column first
             octokit.projects.createColumn({
                 project_id: id,
                 name: columns[0]
             }).then(({data, headers, status }) => {
+                // then in progress
+                octokit.projects.createColumn({
+                    project_id: id,
+                    name: columns[1]
+                }).then(() => {
+                    // then done
+                    octokit.projects.createColumn({
+                        project_id: id,
+                        name: columns[2]
+                    });
+                });
                 let colId = data.id;
                 cards.forEach(card => {
                     octokit.projects.createCard({
@@ -30,14 +42,8 @@ if (!process.argv[2]) {
                     });
                 });
             });
-            octokit.projects.createColumn({
-                project_id: id,
-                name: columns[1]
-            });
-            octokit.projects.createColumn({
-                project_id: id,
-                name: columns[2]
-            })
+        }).catch(error => {
+            console.log(error);
         });
     });
 }
