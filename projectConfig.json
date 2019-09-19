@@ -4,13 +4,5 @@
     "description": "Project cards for stage 1",
     "repo": "project",
     "columns": ["To Do", "In Progress", "Done"],
-    "owner": "info340a-au19",
-    "cards": [
-        {
-            "body": "test content"
-        },
-        {
-            "body": "test"
-        }
-    ]
+    "owner": "info340a-au19"
 }

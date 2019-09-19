@@ -9,8 +9,9 @@ if (!process.argv[2]) {
         auth: api
     });
     
-    const { students, projectName, columns, cards, repo, owner, description } = JSON.parse(fs.readFileSync("cards.json"));
-    
+    const { students, projectName, columns, repo, owner, description } = JSON.parse(fs.readFileSync("projectConfig.json"));
+    const { cards } = JSON.parse(fs.readFileSync("studentCards.json"));
+
     students.forEach(student => {
         octokit.projects.createForRepo({
             owner: owner,

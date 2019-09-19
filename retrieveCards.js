@@ -20,7 +20,16 @@ if (!process.argv[2]) {
             octokit.projects.listCards({
                 column_id: toDoColumn.id
             }).then(({ data: cardData }) => {
-                let cards = JSON.stringify(cardData);
+                let filteredData = [];
+                cardData.forEach(card => {
+                    filteredData.push({
+                        body: card.note
+                    });
+                });
+                let fullCardObj = {
+                    cards: filteredData
+                }
+                let cards = JSON.stringify(fullCardObj, null, "\t");
                 fs.writeFileSync('studentCards.json', cards);
             });
         });
