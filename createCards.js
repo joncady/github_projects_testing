@@ -9,13 +9,14 @@ if (!process.argv[2]) {
         auth: api
     });
     
-    const { students, projectName, columns, cards, repo, owner } = JSON.parse(fs.readFileSync("cards.json"));
+    const { students, projectName, columns, cards, repo, owner, description } = JSON.parse(fs.readFileSync("cards.json"));
     
     students.forEach(student => {
         octokit.projects.createForRepo({
             owner: owner,
             repo: `${repo}-${student}`,
-            name: projectName
+            name: projectName,
+            body: description
         }).then(({ data, headers, status }) => {
             let id = data.id;
             // create to do column first
