@@ -1,4 +1,5 @@
 {
+    "templateRepo": "project-joncady",
     "students": ["joelwross", "joncady"],
     "projectName": "stage1",
     "description": "Project cards for stage 1",

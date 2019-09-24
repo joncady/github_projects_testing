@@ -1,6 +1,87 @@
 {
 	"cards": [
 		{
+			"body": "Informative CSS class/id names"
+		},
+		{
+			"body": "Specifies viewport meta for mobile devices"
+		},
+		{
+			"body": "Tagged commit (to turn in)"
+		},
+		{
+			"body": "Follow mobile design principles:\r\n- layout\r\n- media presence\r\n- navigation, etc"
+		},
+		{
+			"body": "Organizing comments if necessary (HTML & CSS)"
+		},
+		{
+			"body": "Engaging effects:\r\nFor example:\r\n- box-shadow, border-radius, gradients, images\r\n- detailed iconography (font-awesome)\r\n- framework components (navbar, cards, wells, etc)\r\n\r\nor advanced:\r\n- parallax \r\n- useful transforms, animations"
+		},
+		{
+			"body": "Includes some \"non-default\" layout:\r\n- columns, grid, etc\r\n- an absolutely positioned element\r\n"
+		},
+		{
+			"body": "Layout is customized to different screen sizes:\r\n- columns\r\n- size adjustments, etc \r\n- should “look different:”"
+		},
+		{
+			"body": "Code is valid\r\n- doctype included\r\n- passes linter\r\n"
+		},
+		{
+			"body": "Sufficient content for your app:\r\n- 2-3 printed pages long\r\n- 3-5+ images/videos)"
+		},
+		{
+			"body": "HTML includes metadata in head:\r\n- author\r\n- description\r\n- keywords \r\n\r\nPage includes:\r\n- Favicon"
+		},
+		{
+			"body": "Code takes mobile-first approach\r\n- default is mobile\r\n- CSS media rules change that"
+		},
+		{
+			"body": "Page has mock interactivity:\r\n- button/form link\r\n- second page that is changed content (reuses css from the homepage)"
+		},
+		{
+			"body": "Deployed to gh-pages"
+		},
+		{
+			"body": "Alt text on images:\r\n- alternative text for all images\r\n- if necessary: captions, aria-labels\r\n- other aria tags as necessary (e.g., for widgets)"
+		},
+		{
+			"body": "Polish and style:\r\n- good/considered colors\r\n- fonts\r\n- spacing, etc"
+		},
+		{
+			"body": "Content is navigable/readable:\r\n- everything is present"
+		},
+		{
+			"body": "HTML header and footer w/ appropriate information:\r\n- title\r\n- copyright)"
+		},
+		{
+			"body": "Use CSS to style the page:\r\n- Use some custom CSS\r\n- Use bootstrap\r\n\r\nSpecifics (using CSS or bootstrap)\r\n- Set color\r\n- Set fonts / sizes\r\n- Specify margin / padding"
+		},
+		{
+			"body": "Uses alternate image resolutions for large images"
+		},
+		{
+			"body": "Overall indentation/readability/organization:\r\n- particularly CSS\r\n- shared CSS files"
+		},
+		{
+			"body": "Sectioning elements:\r\n- appropriately structuring the page\r\n- includes headings\r\n- encouraging navigability"
+		},
+		{
+			"body": "Appropriate CSS selectors:\r\n- prefer class over id\r\n- avoid duplicated CSS rules/properties"
+		},
+		{
+			"body": "All content visible/available on small & large screens"
+		},
+		{
+			"body": "No unnecessary/redundant HTML elements"
+		},
+		{
+			"body": "Page Topic:\r\n- decide on a page topic that takes form as an app and can be expanded on in the future\r\n"
+		},
+		{
+			"body": "Semantic html usage\r\n- Such as main, header, nav, etc. "
+		},
+		{
 			"body": "HTML includes metadata in head:\r\n- author\r\n- description\r\n- keywords \r\n\r\nPage includes:\r\n- Favicon"
 		},
 		{
@@ -8,81 +89,6 @@
 		},
 		{
 			"body": "Sufficient content for your app:\r\n- 2-3 printed pages long\r\n- 3-5+ images/videos)"
-		},
-		{
-			"body": "HTML header and footer w/ appropriate information:\r\n- title\r\n- copyright)"
-		},
-		{
-			"body": "Page has mock interactivity:\r\n- button/form link\r\n- second page that is changed content (reuses css from the homepage)"
-		},
-		{
-			"body": "Use CSS to style the page:\r\n- Use some custom CSS\r\n- Use bootstrap\r\n\r\nSpecifics (using CSS or bootstrap)\r\n- Set color\r\n- Set fonts / sizes\r\n- Specify margin / padding"
-		},
-		{
-			"body": "Content is navigable/readable:\r\n- everything is present"
-		},
-		{
-			"body": "Includes some \"non-default\" layout:\r\n- columns, grid, etc\r\n- an absolutely positioned element\r\n"
-		},
-		{
-			"body": "Semantic html usage\r\n- Such as main, header, nav, etc. "
-		},
-		{
-			"body": "Sectioning elements:\r\n- appropriately structuring the page\r\n- includes headings\r\n- encouraging navigability"
-		},
-		{
-			"body": "Alt text on images:\r\n- alternative text for all images\r\n- if necessary: captions, aria-labels\r\n- other aria tags as necessary (e.g., for widgets)"
-		},
-		{
-			"body": "All content visible/available on small & large screens"
-		},
-		{
-			"body": "Specifies viewport meta for mobile devices"
-		},
-		{
-			"body": "Follow mobile design principles:\r\n- layout\r\n- media presence\r\n- navigation, etc"
-		},
-		{
-			"body": "Layout is customized to different screen sizes:\r\n- columns\r\n- size adjustments, etc \r\n- should “look different:”"
-		},
-		{
-			"body": "Uses alternate image resolutions for large images"
-		},
-		{
-			"body": "Uses media queries (in meaningful ways)"
-		},
-		{
-			"body": "Code takes mobile-first approach\r\n- default is mobile\r\n- CSS media rules change that"
-		},
-		{
-			"body": "Polish and style:\r\n- good/considered colors\r\n- fonts\r\n- spacing, etc"
-		},
-		{
-			"body": "Engaging effects:\r\nFor example:\r\n- box-shadow, border-radius, gradients, images\r\n- detailed iconography (font-awesome)\r\n- framework components (navbar, cards, wells, etc)\r\n\r\nor advanced:\r\n- parallax \r\n- useful transforms, animations"
-		},
-		{
-			"body": "Code is valid\r\n- doctype included\r\n- passes linter\r\n"
-		},
-		{
-			"body": "No unnecessary/redundant HTML elements"
-		},
-		{
-			"body": "Informative CSS class/id names"
-		},
-		{
-			"body": "Appropriate CSS selectors:\r\n- prefer class over id\r\n- avoid duplicated CSS rules/properties"
-		},
-		{
-			"body": "Overall indentation/readability/organization:\r\n- particularly CSS\r\n- shared CSS files"
-		},
-		{
-			"body": "Organizing comments if necessary (HTML & CSS)"
-		},
-		{
-			"body": "Deployed to gh-pages"
-		},
-		{
-			"body": "Tagged commit (to turn in)"
 		}
 	]
 }

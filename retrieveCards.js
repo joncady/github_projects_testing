@@ -6,11 +6,13 @@ const octokit = new Octokit({
     auth: apiKey
 });
 
+const { owner, templateRepo } = JSON.parse(fs.readFileSync("projectConfig.json"));
+
 octokit.projects.listForRepo({
     // owner of repo (could be an organization)
-    owner: "info340a-au19",
+    owner: owner,
     // the repo's name
-    repo: "project-joncady"
+    repo: templateRepo
 }).then(({ data }) => {
     // downloads the first project cards, will have be tailored to which one to download
     let project = data[0];
