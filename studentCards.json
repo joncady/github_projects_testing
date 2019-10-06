@@ -1,94 +1,91 @@
 {
 	"cards": [
 		{
-			"body": "Informative CSS class/id names"
+			"body": ":sparkles: **Welcome to GitHub Projects** :sparkles:\r\n_This card is provided by GitHub as an introduction. You may delete it at any time_.\r\n\r\nWe're so excited that you've decided to create a new project! Now that you're here, let's make sure you know how to get the most out of GitHub Projects.\r\n- [ ] Press the <kbd>?</kbd> key to see available keyboard shortcuts\r\n- [ ] Drag and drop this card to the new column\r\n- [ ] Search for and add issues or PRs to your project\r\n\r\n**Cards**\r\nCards can be added to your board to track the progress of issues and pull requests. You can also add note cards, like this one!\r\n\r\n**Automation**\r\n[Automatically move your cards](https://help.github.com/articles/configuring-automation-for-project-boards/) to the right place based on the statu"
 		},
 		{
-			"body": "Specifies viewport meta for mobile devices"
+			"body": "Includes appropriate metadata in HTML (4pt)\r\n- [ ] author\r\n- [ ] description\r\n- [ ] keywords \r\n- [ ] favicon"
 		},
 		{
-			"body": "Tagged commit (to turn in)"
+			"body": "Appropriate page content (5pt)\r\n- Page is a mock-up of the \"main page\" of a web app (not a landing page!)\r\n"
 		},
 		{
-			"body": "Follow mobile design principles:\r\n- layout\r\n- media presence\r\n- navigation, etc"
+			"body": "Sufficient app content (5pt)\r\n- [ ] at least 2-3 printed pages\r\n- [ ] at least 3 images/media"
 		},
 		{
-			"body": "Organizing comments if necessary (HTML & CSS)"
+			"body": "Header and footer w/ appropriate information (3pt)\r\n- [ ] includes name of app\r\n- [ ] includes author/copyright"
 		},
 		{
-			"body": "Engaging effects:\r\nFor example:\r\n- box-shadow, border-radius, gradients, images\r\n- detailed iconography (font-awesome)\r\n- framework components (navbar, cards, wells, etc)\r\n\r\nor advanced:\r\n- parallax \r\n- useful transforms, animations"
+			"body": "Mock interactivity (6pt)\r\n- [ ] includes button or form link\r\n- [ ] links to second page that is changed version page\r\n- [ ] second page reuses stylesheet rules"
 		},
 		{
-			"body": "Includes some \"non-default\" layout:\r\n- columns, grid, etc\r\n- an absolutely positioned element\r\n"
+			"body": "Site is styled with CSS (8pt)\r\n- [ ] includes custom CSS\r\n- [ ] color specification\r\n- [ ] font/text specification\r\n- [ ] margin/padding specification"
 		},
 		{
-			"body": "Layout is customized to different screen sizes:\r\n- columns\r\n- size adjustments, etc \r\n- should “look different:”"
+			"body": "Content is navigable and readable (3pt)\r\n- [ ] styling does not interfere with usage\r\n- [ ] content is spatially organized"
 		},
 		{
-			"body": "Code is valid\r\n- doctype included\r\n- passes linter\r\n"
+			"body": "Includes \"non-default\" element flow via CSS (7pt)\r\n- e.g., columns or grids\r\n- [ ] effectively uses flexbox!\r\n"
 		},
 		{
-			"body": "Sufficient content for your app:\r\n- 2-3 printed pages long\r\n- 3-5+ images/videos)"
+			"body": "Accessibly semantic HTML usage (4pt)\r\n- e.g., headings for headings, lists for lists"
 		},
 		{
-			"body": "HTML includes metadata in head:\r\n- author\r\n- description\r\n- keywords \r\n\r\nPage includes:\r\n- Favicon"
+			"body": "Uses sectioning elements (4pt)\r\n- [ ] inclues e.g., `<header>` `<main>`, etc.\r\n- [ ] used to appropriately structure the page\r\n- [ ] headings are at appropriate levels\r\n"
 		},
 		{
-			"body": "Code takes mobile-first approach\r\n- default is mobile\r\n- CSS media rules change that"
+			"body": "Alt text on images/visual elements (5pt)\r\n- includes captions, `aria-labels`, other `aria` tags when necessary/appropriate"
 		},
 		{
-			"body": "Page has mock interactivity:\r\n- button/form link\r\n- second page that is changed content (reuses css from the homepage)"
+			"body": "Specifies viewport meta for mobile devices (1pt)"
 		},
 		{
-			"body": "Deployed to gh-pages"
+			"body": "Content is visible & available on small and large screens (1pt)"
 		},
 		{
-			"body": "Alt text on images:\r\n- alternative text for all images\r\n- if necessary: captions, aria-labels\r\n- other aria tags as necessary (e.g., for widgets)"
+			"body": "Follow mobile design principles (4pt)\r\n- [ ] layout\r\n- [ ] media\r\n- [ ] fonts\r\n- [ ] navigation\r\n- [ ] inputs & interaction\r\n- [ ] content"
 		},
 		{
-			"body": "Polish and style:\r\n- good/considered colors\r\n- fonts\r\n- spacing, etc"
+			"body": "Alternate resolutions for large background images (1pt)"
 		},
 		{
-			"body": "Content is navigable/readable:\r\n- everything is present"
+			"body": "Layout is customized to different screen sizes (4pt)\r\n- The page should \"look different\" for different devices with different affordances"
 		},
 		{
-			"body": "HTML header and footer w/ appropriate information:\r\n- title\r\n- copyright)"
+			"body": "Uses media queries (3pt)\r\n- In a meaningful way!"
 		},
 		{
-			"body": "Use CSS to style the page:\r\n- Use some custom CSS\r\n- Use bootstrap\r\n\r\nSpecifics (using CSS or bootstrap)\r\n- Set color\r\n- Set fonts / sizes\r\n- Specify margin / padding"
+			"body": "Code takes a mobile-first approach (2pt)\r\n- default styling is mobile, CSS media rules change that\r\n"
 		},
 		{
-			"body": "Uses alternate image resolutions for large images"
+			"body": "Design is deeply considered and polished (6pt)\r\n\r\nIncluding, but not limited to:\r\n- [ ] coloring\r\n- [ ] typography (fonts)\r\n- [ ] positioning (spacing)"
 		},
 		{
-			"body": "Overall indentation/readability/organization:\r\n- particularly CSS\r\n- shared CSS files"
+			"body": "Includes appropriate engaging effects (8pt)\r\n\r\nFor example:\r\n- box-shadow, border-radius, gradients, images\r\n- detailed iconography (font-awesome)\r\n- framework components (navbar, cards, wells, etc)\r\n- (advanced) parallax\r\n- (advanced) useful transforms, animations"
 		},
 		{
-			"body": "Sectioning elements:\r\n- appropriately structuring the page\r\n- includes headings\r\n- encouraging navigability"
+			"body": "Code is valid (2pt)\r\n- [ ] includes doctype\r\n- [ ] passes validators\r\n- [ ] passes linters"
 		},
 		{
-			"body": "Appropriate CSS selectors:\r\n- prefer class over id\r\n- avoid duplicated CSS rules/properties"
+			"body": "No unnecessary/redundant HTML elements (2pt)"
 		},
 		{
-			"body": "All content visible/available on small & large screens"
+			"body": "Appropriate CSS selectors (3pt)\r\n- [ ] prefer class over id\r\n- [ ] avoid duplicated CSS rules or properties"
 		},
 		{
-			"body": "No unnecessary/redundant HTML elements"
+			"body": "Informative CSS class & id names (2pt)"
 		},
 		{
-			"body": "Page Topic:\r\n- decide on a page topic that takes form as an app and can be expanded on in the future\r\n"
+			"body": "Overall code readability (3pt)\r\n- [ ] cleanly indented\r\n- [ ] well organized (especially CSS)"
 		},
 		{
-			"body": "Semantic html usage\r\n- Such as main, header, nav, etc. "
+			"body": "Includes organizing comments as necessary (1pt)\r\n- [ ] HTML\r\n- [ ] CSS"
 		},
 		{
-			"body": "HTML includes metadata in head:\r\n- author\r\n- description\r\n- keywords \r\n\r\nPage includes:\r\n- Favicon"
+			"body": "Published page to GitHub Pages (1pt)"
 		},
 		{
-			"body": "Page Topic:\r\n- decide on a page topic that takes form as an app and can be expanded on in the future\r\n"
-		},
-		{
-			"body": "Sufficient content for your app:\r\n- 2-3 printed pages long\r\n- 3-5+ images/videos)"
+			"body": "Tagged commit with completed stage (2pt)\r\n- [ ] tagged commit\r\n- [ ] pushed tag"
 		}
 	]
 }

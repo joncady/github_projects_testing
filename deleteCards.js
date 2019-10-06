@@ -7,10 +7,9 @@ const octokit = new Octokit({
 });
 
 const { students, repo, owner } = JSON.parse(fs.readFileSync("projectConfig.json"));
-const { cards } = JSON.parse(fs.readFileSync("studentCards.json"));
 
+// deletes 1st page of project cards, re-run to delte all of them
 students.forEach((student, index) => {
-    // add in spacing in between to not trigger abuse detection from github
     setTimeout(() => {
         octokit.projects.listForRepo({
             // owner of repo (could be an organization)
@@ -23,24 +22,19 @@ students.forEach((student, index) => {
                 project_id: studentProj.id
             }).then(({ data, headers, status }) => {
                 let toDoColumn = data[0];
-                let count = cards.length - 1;
-                addCard(count, toDoColumn.id);
+                octokit.projects.listCards({
+                    column_id: toDoColumn.id
+                }).then(({ data, headers, status }) => {
+                    let cardArray = data;
+                    cardArray.forEach(card => {
+                        octokit.projects.deleteCard({
+                            card_id: card.id
+                        });
+                    });
+                });
             });
         }).catch(error => {
             console.log(error);
         });
-    }, 7000 * index);
+    }, 4000 * index);
 });
-
-function addCard(count, id) {
-    if (0 <= count) {
-        octokit.projects.createCard({
-            column_id: id,
-            note: cards[count].body
-        }).then(() => {
-            addCard(count - 1, id);
-        }).catch(error => {
-            console.log(error);
-        });
-    }
-}
